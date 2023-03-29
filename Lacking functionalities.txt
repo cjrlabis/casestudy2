@@ -1,0 +1,9 @@
+Lacking functionalities:
+
+1. When clicking delete, it will automatically delete without having a prompt for delete confirmation
+
+2. Validation for input fields
+
+3. Gender, Covid Diagnosed, Covid Encountered and Vaccinated fields are still on text ( not yet dropped down)
+
+4. Chart :)
