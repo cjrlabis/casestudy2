@@ -4,14 +4,14 @@
     $age = $_POST['age'];
     $mobile_no = $_POST['mobile_no'];
     $body_temp = $_POST['body_temp'];
-    $covid_diagnosed = $_POST['covid_diagnosed'];
-    $covid_encounter = $_POST['covid_encounter'];
-    $vaccinated = $_POST['vaccinated'];
+    $covid_diagnosed = ( isset($_POST['covid_diagnosed']) ? $_POST['covid_diagnosed'] : '');
+    $covid_encounter = ( isset($_POST['covid_encounter']) ? $_POST['covid_encounter'] : '');
+    $vaccinated = ( isset($_POST['vaccinated']) ? $_POST['vaccinated'] : '');
     $nationality = $_POST['nationality'];
 
 
     //DB connection
-    $conn = new mysqli('localhost','root','','covid');
+    $conn = new mysqli('localhost','id20534056_kent','/r-7{v>~-jI$Rlnm','id20534056_covid');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);

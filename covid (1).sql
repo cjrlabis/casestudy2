@@ -45,12 +45,12 @@ CREATE TABLE `details` (
 --
 
 INSERT INTO `details` (`id`, `full_name`, `gender`, `age`, `mobile_no`, `body_temp`, `covid_diagnosed`, `covid_encounter`, `vaccinated`, `nationality`) VALUES
-(3, 'Nice DigalS', 'Female', '23', '09558008440', '34', 'No', 'No', 'Yes', 'Filipino'),
-(4, 'Johns', 'Male', '26', '09123456789', '36', 'No', 'Yes', 'Yes', 'Filipino'),
-(5, 'asdasda', 'asdsad', 'asdas', 'asdsad', 'sadas', 'dasdsad', 'asdsad', 'sadsa', 'asdsad'),
-(6, 'asdasda', 'asdsad', 'asdas', 'asdsad', 'sadas', 'dasdsad', 'asdsad', 'sadsa', 'asdsad'),
-(7, 'asdasda', 'asdsad', 'asdas', 'asdsad', 'sadas', 'dasdsad', 'asdsad', 'sadsa', 'asdsad'),
-(8, 'adsadsadsa', 'sadsadsa', 'sadsa', 'sadsad', 'sadsad', 'sadsad', 'sadsa', 'asda', 'sad');
+(3, 'Nice DigalS', 'Female', '23', '09558008440', '34', 'on', '', '', 'Filipino'),
+(4, 'Johns', 'Male', '26', '09123456789', '36', 'on', 'on', 'on', 'Filipino'),
+(5, 'Name 1', 'Female', '33', '09123456789', '35', 'on', '', 'on', 'asdsad'),
+(6, 'Name 2', 'Female', '24', '09123456789', '33', 'on', '', '', 'asdsad'),
+(7, 'Name 3', 'Male', '22', '09123456789', '34', '', 'on', '', 'asdsad'),
+(8, 'Name 4', 'Male', '43', '09123456789', '45', '', 'on', 'on', 'sad');
 
 --
 -- Indexes for dumped tables
